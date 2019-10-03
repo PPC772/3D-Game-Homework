@@ -47,8 +47,7 @@ public class Controller : MonoBehaviour, ISceneController, IUserAction{
         view.sign = Check();
     }
 
-    public void MoveRole(RoleModel role)
-    {
+    public void MoveRole(RoleModel role){
         if (view.sign != 0)
         	return;
         if (role.IsOnShip()){
@@ -74,8 +73,7 @@ public class Controller : MonoBehaviour, ISceneController, IUserAction{
         view.sign = Check();
     }
 
-    public void Restart()
-    {
+    public void Restart(){
         right_land.Reset();
         left_land.Reset();
         ship.Reset();
@@ -96,13 +94,11 @@ public class Controller : MonoBehaviour, ISceneController, IUserAction{
             return 2;
 
         int[] ship_role_num = ship.GetRoleNumber();
-        if (!ship.GetShipSign())
-        {
+        if (!ship.GetShipSign()){
             right_priest += ship_role_num[0];
             right_devil += ship_role_num[1];
         }
-        else
-        {
+        else{
             left_priest += ship_role_num[0];
             left_devil += ship_role_num[1];
         }
