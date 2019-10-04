@@ -263,12 +263,6 @@ namespace Model{
         }
     }
 
-    // public class Move : MonoBehaviour{
-    //     public void MovePosition(Vector3 position){
-    //     	transform.position = position;
-    //     }
-    // }
-
     public class Click : MonoBehaviour{
         IUserAction action;
         RoleModel role = null;
