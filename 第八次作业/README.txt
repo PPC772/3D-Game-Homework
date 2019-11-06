@@ -1,0 +1,4 @@
+场景为particle system/Assets/Scenes/SampleScene.unity
+该粒子系统由三个子粒子系统构成：太阳核心、光圈和周围的星星
+Resources内为粒子系统用的贴图
+Script内有一个改变粒子系统颜色的脚本，运行时点击左上方的按钮即可切换颜色
