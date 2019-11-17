@@ -1,0 +1,3 @@
+场景为health bar/Assets/Scenes/SampleScene.unity
+运行前可以在脚本里修改血条的初始值
+运行后的血条都可以通过按钮调节
